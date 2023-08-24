@@ -1,5 +1,5 @@
 import devprocess
 
-result = devprocess.add_numbers(5, 5)
+result = 'Hello World'
 
 print(result)
