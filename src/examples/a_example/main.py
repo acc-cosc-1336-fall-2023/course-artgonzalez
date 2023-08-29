@@ -1,5 +1,14 @@
 import devprocess
 
-result = 'Hello World'
+result = 'Hello World' #will save the Hello World sequence to the result variable
 
 print(result)
+
+result = 123
+
+print(result)
+
+result = devprocess.add_numbers(50, 50)
+
+print(result)
+
