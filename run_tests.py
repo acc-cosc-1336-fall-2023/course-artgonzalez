@@ -7,7 +7,7 @@ has the test functions
 #from tests.examples.a_example import tests_devprocess
 #from tests.examples.c_decisions import tests_decisions
 #from tests.examples.h_strings import tests_strings
-from tests.homework.e_functions import tests_functions
+from tests.examples.g_lists_and_tuples import tests_lists_and_tuples
 
-suite = unittest.TestLoader().loadTestsFromModule(tests_functions)
+suite = unittest.TestLoader().loadTestsFromModule(tests_lists_and_tuples)
 unittest.TextTestRunner(verbosity=2).run(suite)
