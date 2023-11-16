@@ -4,7 +4,7 @@ class BankAccount:
     __balance = 0 #hide it from other classes
 
     def __init__(self, balance):#constructor --initialize class data/variables
-        
+        print('balance ', balance)
         if(balance >= 0):
             self.__balance = balance
         else:

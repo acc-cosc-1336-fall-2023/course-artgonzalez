@@ -70,7 +70,7 @@ class Test_Config(unittest.TestCase):
         self.assertLessEqual(account.get_balance(), 10000)
 
     def test_get_account_from_customer(self):
-        customer = Customer()
+        customer = Customer(-1, -1)
         account = customer.get_account(0)
         print(account)
         self.assertGreaterEqual(account.get_balance(), 0)
